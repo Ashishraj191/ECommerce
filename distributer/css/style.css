@@ -1,0 +1,93 @@
+ /* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    
+    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+    .row.content {height: 450px}
+    
+    /* Set gray background color and 100% height */
+    .sidenav {
+      padding-top: 20px;
+      background-color: #f1f1f1;
+      height: 100%;
+    }
+    
+    /* Set black background color, white text and some padding */
+    footer {
+      background-color: #555;
+      color: white;
+      padding: 15px;
+      margin-top: 171px;
+    }
+    
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    @media screen and (max-width: 767px) {
+      .view{
+      overflow-x: scroll;
+    }
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {height:auto;} 
+    }
+    ul li i{
+      font-family: ;
+    }
+.text-left{
+  margin-top: 15px;
+  margin-bottom: 25px;
+}
+.btn{
+  height: 45px;
+  line-height: 32px;
+  color: #fff;
+}
+.view{
+  margin-top: 10px;
+  
+}
+table{
+  height: 35px;
+  background: #fff;
+  border: 2px solid whitesmoke;
+  box-shadow: 1px 1px 1px 0px #888888;
+}
+table th{
+  text-align: center;
+  font-family: a;
+  color: ;
+}
+table tr td{
+ padding: 7px;
+}
+.rows{
+  height: 40px;
+  background: whitesmoke;
+}
+.dropdown-menu-right{
+  margin: 0;
+  padding: 0;
+}
+.dropdown-menu-right a{
+  display: block;
+  padding: 4px 25px;
+  margin-top: -px;
+  text-decoration: none;
+  font-size: 12px;
+}
+.dropdown-menu-right a:hover{
+  background: whitesmoke;
+}
+.nav .dropdown ul li:last-child{
+  border-top: 1px solid gray;
+  margin-top: 6px;
+}
+.nav .dropdown ul {
+  background: whitesmoke;
+}
+.nav .dropdown ul li{
+  padding: 5px 0px;
+}

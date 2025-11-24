@@ -1,0 +1,22 @@
+/*.modal-content{
+	background: #192032;
+}
+*/body{
+	/*color: #fff;*/
+	font-family: arial;
+}
+.modal-content{
+	padding: 10px 10px;
+	background: #192032;
+	color: #fff;
+}
+table>thead>tr{
+	padding: 10px;
+}
+
+.membershipCard{
+	border: 2px solid #fff;border-radius: 5px;margin: 0px 5px;
+}
+.membershipCard:hover{
+	border: 2px solid rgb(67, 195, 246);
+}
